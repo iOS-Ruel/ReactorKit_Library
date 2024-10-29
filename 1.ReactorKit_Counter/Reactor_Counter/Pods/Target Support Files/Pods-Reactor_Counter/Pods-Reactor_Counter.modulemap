@@ -1,0 +1,6 @@
+framework module Pods_Reactor_Counter {
+  umbrella header "Pods-Reactor_Counter-umbrella.h"
+
+  export *
+  module * { export * }
+}
