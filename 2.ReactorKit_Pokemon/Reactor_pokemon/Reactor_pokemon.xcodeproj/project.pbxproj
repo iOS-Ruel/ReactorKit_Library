@@ -13,19 +13,21 @@
 		4105F6A82CD08CBA00B42189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105F6A22CD08CBA00B42189 /* ViewController.swift */; };
 		4105F6A92CD08CBA00B42189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4105F69A2CD08CBA00B42189 /* Assets.xcassets */; };
 		4105F6AB2CD08CBA00B42189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4105F69D2CD08CBA00B42189 /* LaunchScreen.storyboard */; };
-		4105F6AC2CD08CBA00B42189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4105F69F2CD08CBA00B42189 /* Main.storyboard */; };
+		6C99D6572A9FDB128DCE2674 /* Pods_Reactor_pokemon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC06B1B5DF59A8C08220F82 /* Pods_Reactor_pokemon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FC06B1B5DF59A8C08220F82 /* Pods_Reactor_pokemon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactor_pokemon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4105F67E2CD08BD200B42189 /* Reactor_pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reactor_pokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4105F6992CD08CBA00B42189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4105F69A2CD08CBA00B42189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4105F69B2CD08CBA00B42189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4105F69C2CD08CBA00B42189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4105F69E2CD08CBA00B42189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4105F6A12CD08CBA00B42189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4105F6A22CD08CBA00B42189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4105F6A42CD08CBA00B42189 /* Reactor_pokemon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reactor_pokemon.xcdatamodel; sourceTree = "<group>"; };
+		612C6E51F49A3B3DEB7F6B86 /* Pods-Reactor_pokemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactor_pokemon.debug.xcconfig"; path = "Target Support Files/Pods-Reactor_pokemon/Pods-Reactor_pokemon.debug.xcconfig"; sourceTree = "<group>"; };
+		89306B000FE66E863E9D0AFE /* Pods-Reactor_pokemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactor_pokemon.release.xcconfig"; path = "Target Support Files/Pods-Reactor_pokemon/Pods-Reactor_pokemon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C99D6572A9FDB128DCE2674 /* Pods_Reactor_pokemon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,8 @@
 			children = (
 				4105F6A32CD08CBA00B42189 /* Reactor_pokemon */,
 				4105F67F2CD08BD200B42189 /* Products */,
+				9085941EC764EFD4DE39A639 /* Pods */,
+				410F789591EF72E98E5FB12F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +67,28 @@
 				4105F69A2CD08CBA00B42189 /* Assets.xcassets */,
 				4105F69B2CD08CBA00B42189 /* Info.plist */,
 				4105F69D2CD08CBA00B42189 /* LaunchScreen.storyboard */,
-				4105F69F2CD08CBA00B42189 /* Main.storyboard */,
 				4105F6A02CD08CBA00B42189 /* Reactor_pokemon.xcdatamodeld */,
 				4105F6A12CD08CBA00B42189 /* SceneDelegate.swift */,
 				4105F6A22CD08CBA00B42189 /* ViewController.swift */,
 			);
 			path = Reactor_pokemon;
+			sourceTree = "<group>";
+		};
+		410F789591EF72E98E5FB12F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC06B1B5DF59A8C08220F82 /* Pods_Reactor_pokemon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9085941EC764EFD4DE39A639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				612C6E51F49A3B3DEB7F6B86 /* Pods-Reactor_pokemon.debug.xcconfig */,
+				89306B000FE66E863E9D0AFE /* Pods-Reactor_pokemon.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,17 +98,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4105F6942CD08BD300B42189 /* Build configuration list for PBXNativeTarget "Reactor_pokemon" */;
 			buildPhases = (
+				F45DC45B5D6DE86C4F35E9F8 /* [CP] Check Pods Manifest.lock */,
 				4105F67A2CD08BD200B42189 /* Sources */,
 				4105F67B2CD08BD200B42189 /* Frameworks */,
 				4105F67C2CD08BD200B42189 /* Resources */,
+				673EAED52890B4BC88D9A5BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Reactor_pokemon;
-			packageProductDependencies = (
-			);
 			productName = Reactor_pokemon;
 			productReference = 4105F67E2CD08BD200B42189 /* Reactor_pokemon.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +129,7 @@
 				};
 			};
 			buildConfigurationList = 4105F6792CD08BD200B42189 /* Build configuration list for PBXProject "Reactor_pokemon" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -131,11 +153,52 @@
 			files = (
 				4105F6A92CD08CBA00B42189 /* Assets.xcassets in Resources */,
 				4105F6AB2CD08CBA00B42189 /* LaunchScreen.storyboard in Resources */,
-				4105F6AC2CD08CBA00B42189 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		673EAED52890B4BC88D9A5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reactor_pokemon/Pods-Reactor_pokemon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reactor_pokemon/Pods-Reactor_pokemon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactor_pokemon/Pods-Reactor_pokemon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45DC45B5D6DE86C4F35E9F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reactor_pokemon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4105F67A2CD08BD200B42189 /* Sources */ = {
@@ -160,30 +223,23 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4105F69F2CD08CBA00B42189 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4105F69E2CD08CBA00B42189 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4105F6952CD08BD300B42189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612C6E51F49A3B3DEB7F6B86 /* Pods-Reactor_pokemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UU59NTC96;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reactor_pokemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -201,17 +257,18 @@
 		};
 		4105F6962CD08BD300B42189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89306B000FE66E863E9D0AFE /* Pods-Reactor_pokemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UU59NTC96;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reactor_pokemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
